@@ -84,9 +84,9 @@
                 <div class="row flex-center pt-8 mt-8">
                     <div class="white-text">
                         <div class="col-md-12 col-lg-12 text-center text-md-left margins">
-                            <h1>Espace de connexion <i class="fa fa-user" aria-hidden="true"></i></h1>
+                            <h1 class="wow fadeInRight" data-wow-delay="0.3s">Espace de connexion <i class="fa fa-user" aria-hidden="true"></i></h1>
                             <br><br>
-                            <form>
+                            <form class="wow fadeInLeft" data-wow-delay="0.3s">
                                 <!-- Material input -->
                                 <div class="md-form form-group mt-5">
                                     <input type="text" class="form-control" id="nomutilisateur">
@@ -98,7 +98,7 @@
                                     <label for="mdputilisateur">Mot de passe</label>
                                 </div>
                                 <br>
-                                <center><button class="btn blue-gradient"><i class="fa fa-magic mr-1"></i> Me connecter</button></center>
+                                <center><button class="btn blue"><i class="fa fa-magic mr-1"></i> Me connecter</button></center>
                             </form>
                         </div>
                     </div>
