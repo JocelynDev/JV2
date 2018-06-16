@@ -47,7 +47,7 @@
                             <h6 class="wow fadeInLeft" data-wow-delay="0.3s">Bienvenue sur la version 2 de mon site ! Après plusieurs mois de travail pour vous proposer la meilleure expérience, le site est disponible.
                             </h6>
                             <br>
-                            <a class="btn btn-white btn-rounded blue-text font-weight-bold ml-lg-0 wow fadeInLeft" data-wow-delay="0.3s">Me connecter</a>
+                            <a class="btn btn-white btn-rounded blue-text font-weight-bold ml-lg-0 wow fadeInLeft" data-wow-delay="0.3s" href="connexion.php">Me connecter</a>
                             <a class="btn btn-outline-white btn-rounded font-weight-bold wow fadeInLeft" data-wow-delay="0.3s">En savoir plus 
                                 </a>
                         </div>
