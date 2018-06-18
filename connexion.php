@@ -83,7 +83,7 @@
             <div class="container h-100 d-flex justify-content-center align-items-center">
                 <div class="row flex-center pt-8 mt-8">
                     <div class="white-text">
-                        <div class="col-md-12 col-lg-12 text-center text-md-left margins">
+                        <div class="col-md-12 col-lg-12 text-center text-md-left margins" id="formconnexion">
                             <h1 class="wow fadeInRight" data-wow-delay="0.3s">Espace de connexion <i class="fa fa-user" aria-hidden="true"></i></h1>
                             <br><br>
                             <form class="wow fadeInLeft" data-wow-delay="0.3s">

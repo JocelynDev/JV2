@@ -14,7 +14,27 @@
     <style>
     .side-nav .logo-wrapper {
         height: 230px;
-        }
+    }
+
+    .cascading-admin-card .admin-up {
+    margin-left: 4%;
+    margin-right: 4%;
+    margin-top: -20px;
+}
+    .cascading-admin-card .admin-up .fa {
+    padding: 1.7rem;
+    font-size: 2rem;
+    color: #fff;
+    text-align: left;
+    margin-right: 1rem;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+}
+    .cascading-admin-card .admin-up .data {
+    float: right;
+    margin-top: 2rem;
+    text-align: right;
+    }
     </style>
 </head>
 
@@ -125,8 +145,112 @@
     </header>
     
     <main>
-        <div class="container-fluid mt-5">
-            <center><h2>Bienvenue sur le site !</h2></center>
+        <div class="container-fluid wow fadeInLeft" data-wow-delay="0.3s">
+            <section class="mt-lg-5">
+
+                <!--Grid row-->
+                <div class="row">
+
+                    <!--Grid column-->
+                    <div class="col-xl-4 col-md-6 mb-4">
+
+                        <!--Card-->
+                        <div class="card card-cascade cascading-admin-card">
+
+                            <!--Card Data-->
+                            <div class="admin-up">
+                                <i class="fa fa-book primary-color"></i>
+                                <div class="data">
+                                    <p>NOMBRE DE COURS</p>
+                                    <h4 class="font-weight-bold dark-grey-text">82</h4>
+                                </div>
+                            </div>
+                            <!--/.Card Data-->
+
+                            <!--Card content-->
+                            <div class="card-body">
+                                <div class="progress">
+                                    <div class="progress-bar bg-primary" role="progressbar" style="width: 100%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
+                                <!--Text-->
+                                <p class="card-text">Accéder aux cours</p>
+                            </div>
+                            <!--/.Card content-->
+
+                        </div>
+                        <!--/.Card-->
+
+                    </div>
+                    <!--Grid column-->
+
+                    <!--Grid column-->
+                    <div class="col-xl-4 col-md-6 mb-4">
+
+                        <!--Card-->
+                        <div class="card card-cascade cascading-admin-card">
+
+                            <!--Card Data-->
+                            <div class="admin-up">
+                                <i class="fa fa-user warning-color"></i>
+                                <div class="data">
+                                    <p>NOMBRE D'UTILISATEUR</p>
+                                    <h4 class="font-weight-bold dark-grey-text">200</h4>
+                                </div>
+                            </div>
+                            <!--/.Card Data-->
+
+                            <!--Card content-->
+                            <div class="card-body">
+                                <div class="progress">
+                                    <div class="progress-bar bg-primary accent-2" role="progressbar" style="width: 100%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
+                                <!--Text-->
+                                <p class="card-text">Accéder à mon espace personnel</p>
+                            </div>
+                            <!--/.Card content-->
+
+                        </div>
+                        <!--/.Card-->
+
+                    </div>
+                    <!--Grid column-->
+
+                    <!--Grid column-->
+                    <div class="col-xl-4 col-md-12 mb-4">
+
+                        <!--Card-->
+                        <div class="card card-cascade cascading-admin-card">
+
+                            <!--Card Data-->
+                            <div class="admin-up">
+                                <i class="fa fa-bolt light-blue lighten-1"></i>
+                                <div class="data">
+                                    <p>VITESSE DU SITE</p>
+                                    <h4 class="font-weight-bold dark-grey-text">0.03 sec</h4>
+                                </div>
+                            </div>
+                            <!--/.Card Data-->
+
+                            <!--Card content-->
+                            <div class="card-body">
+                                <div class="progress">
+                                    <div class="progress-bar bg-primary accent-2" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="100" aria-valuemax="100"></div>
+                                </div>
+                                <!--Text-->
+                                <p class="card-text">Comment est programmer le site ? </p>
+                            </div>
+                            <!--/.Card content-->
+
+                        </div>
+                        <!--/.Card-->
+
+                    </div>
+                    <!--Grid column-->
+
+                </div>
+                <!--Grid row-->
+
+            </section>
         </div>
     </main>
 
@@ -143,5 +267,8 @@
 <script>
     //Initialisation de l'animation
     new WOW().init();
+
 </script>
+
+
 </body>

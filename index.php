@@ -25,8 +25,6 @@
           
         }
 
-        .gradienbg .rgba-gradient {
-            background : -webkit-linear-gradient(45deg,#68d0ff,#453cf5 100%);
         }
 
     </style>
@@ -36,10 +34,10 @@
 
 
 <header>
-    <section class="view intro-2 rgba-gradient">
+    <section class="view intro-2 rgba-gradient" style="background : -webkit-linear-gradient(45deg,#68d0ff,#453cf5 100%);">
         <div class="mask">
             <div class="container h-100 d-flex justify-content-center align-items-center">
-                <div class="row flex-center pt-5 mt-3">
+                <div class="row flex-center">
                     <div class="col-md-12 col-lg-6 text-center text-md-left margins">
                         <div class="white-text">
                             <center><h1 class="h1-responsive font-weight-bold wow fadeInLeft" data-wow-delay="0.3s">Bienvenue !</h1><center>
@@ -54,7 +52,7 @@
                     </div>
 
                     <div class="col-md-12 col-lg-6  wow fadeInRight" data-wow-delay="0.3s">
-                        <img src="rss/mascotte.png" alt="Mascotte Jocelyn Vourron" class="img-fluid" width="600" height="670">
+                        <img src="rss/mascotte.png" alt="Mascotte Jocelyn Vourron" class="img-fluid" width="400" height="500">
                     </div>
                 </div>
             </div>
