@@ -130,7 +130,7 @@
                 &nbsp;
                 <li class="nav-item avatar dropdown">
                     <a class="nav-link dropdown-toggle waves-effect waves-light" id="navbarDropdownMenuLink-5" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        <img src="https://mdbootstrap.com/img/Photos/Avatars/avatar-2.jpg" class="rounded-circle z-depth-0" alt="avatar image">
+                        <img src="rss/logo.jpg" class="rounded-circle z-depth-0" alt="avatar image">
                     </a>
                     <div class="dropdown-menu dropdown-menu-right dropdown-secondary">
                         <center><p style="margin-top: 10px;">Jocelyn Vourron</p></center>
@@ -145,6 +145,13 @@
     </header>
     
     <main>
+        <div class="container-fluid wow fadeInRight" data-wow-delay="0.3s">
+            <div class="divider-new mt-0 mb-4">
+                <h2 class="h3-responsive">
+                    <strong> Bienvenue Jocelyn </strong>
+                </h2>
+            </div>
+        </div>
         <div class="container-fluid wow fadeInLeft" data-wow-delay="0.3s">
             <section class="mt-lg-5">
 
@@ -193,7 +200,7 @@
                             <div class="admin-up">
                                 <i class="fa fa-user warning-color"></i>
                                 <div class="data">
-                                    <p>NOMBRE D'UTILISATEUR</p>
+                                    <p>NOMBRE D'UTILISATEURS</p>
                                     <h4 class="font-weight-bold dark-grey-text">200</h4>
                                 </div>
                             </div>
@@ -249,7 +256,7 @@
 
                 </div>
                 <!--Grid row-->
-
+                <br>
             </section>
         </div>
     </main>
@@ -269,6 +276,7 @@
     new WOW().init();
 
 </script>
+
 
 
 </body>
